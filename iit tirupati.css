@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #0d0d0d;
+    overflow-x: hidden;
+}
+
+/* ================= NAVBAR ================== */
+.navbar{
+    width: 100%;
+    background: rgba(0, 9, 17, 0.45);
+    backdrop-filter: blur(12px);
+    padding: 15px 0;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.navbar .active{
+    border-bottom: 3px solid #fff;
+}
+
+
+/* ================= HERO SECTION ================= */
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.bg-img{
+    width: 99%;
+    height: 98%;
+    object-fit: cover;
+    filter: brightness(0.98);
+}
+
+/* Tagline */
+.tagline{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translateX(-55%);
+    color: #e4e6e9;
+    font-size: 32px;
+    font-weight: 600;
+    text-shadow: 0 0 10px #000;
+}
+
+/* Workshop text */
+.workshop-text{
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-58%);
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.midcontent{
+    position: relative;
+    bottom: 20%;
+    right: -90%;
+    transform: translateX(-56%);
+    color: #f3f3f4;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* ===== Explore Button ===== */
+.explore-btn{
+    position: absolute;
+    bottom: 10%;
+    left: 80%;
+    transform: translateX(-50%);
+    padding: 14px 35px;
+    background: #1a4f7a;
+    border-radius: 35px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
